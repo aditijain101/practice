@@ -1,6 +1,18 @@
 .App {
   text-align: center;
+  overflow-y: auto;
+  height: 100vh;
 }
+.home{
+  overflow-y: hidden;
+}
+.home::-webkit-scrollbar {
+  visibility: hidden;
+}
+.App::-webkit-scrollbar {
+  visibility: hidden;
+}
+
 
 .App-logo {
   height: 40vmin;

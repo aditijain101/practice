@@ -1,0 +1,66 @@
+.container {
+    width: 48.75%;
+    height: 90vh;
+    overflow-y: auto;
+    flex-direction: column;
+
+}
+
+.commonContainer {
+    /* height: 63%; */
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    opacity: 1;
+}
+
+.commonContainer1 {
+    margin-top: 10%;
+    /* height: 63%; */
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    opacity: 1;
+}
+.commonContainer2 {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+}
+
+/* .commonContainer2::-webkit-scrollbar {
+    visibility: visible;
+} */
+.container::-webkit-scrollbar {
+    visibility: hidden;
+}
+
+.stackContainer {
+    overflow: auto;
+}
+
+.header {
+    font: normal normal 600 18px/20px Gilroy;
+    letter-spacing: 0px;
+    color: #101010;
+    opacity: 1;
+    display: flex;
+}
+
+.profileheading {
+    text-align: left;
+    font: normal normal medium 14px/21px Gilroy;
+    letter-spacing: 0px;
+    opacity: 1;
+}
+
+.bottomheader {
+    font: normal normal 600 20px/24px Gilroy;
+    letter-spacing: 0px;
+    color: #101010;
+    opacity: 1;
+}
+
+.commoncard{
+    display: flex;
+    flex-direction: column;
+}

@@ -1,23 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
+import Navbar from "../src/components/Navbar/navbar";
+import LowerContent from "../src/components/Content/main";
+import { Stack } from '@mui/material';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Stack direction={'column'} gap={5} style={{
+        overflowY:"clip "
+      }} className='home'>
+        <Navbar />
+        <LowerContent/>
+      </Stack>
     </div>
   );
 }
